@@ -1,0 +1,28 @@
+{
+  "datasets": [
+    "bilinear",
+    "quartic",
+    "switched",
+    "additive",
+    "breast_cancer",
+    "digits"
+  ],
+  "models": [
+    "linear",
+    "mlp",
+    "fixed_random",
+    "learned_product",
+    "routed_product"
+  ],
+  "seeds": [
+    0
+  ],
+  "epochs": 80,
+  "nodes": 8,
+  "cost_penalty": 0.01,
+  "torch": "2.10.0+cpu",
+  "numpy": "2.3.5",
+  "sklearn": "1.8.0",
+  "python": "3.13.5",
+  "platform": "Linux-6.18.57-x86_64-with-glibc2.41"
+}
