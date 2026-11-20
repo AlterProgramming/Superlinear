@@ -1,0 +1,36 @@
+{
+  "generated_on": "2026-11-19",
+  "python": "3.13.5",
+  "torch": "2.10.0+cpu",
+  "sklearn": "1.8.0",
+  "numpy": "2.3.5",
+  "runs": {
+    "main": 440,
+    "node_sweep": 250,
+    "sample_sweep": 180,
+    "diagnostic_training": 20,
+    "incident_replication": 1
+  },
+  "files": {
+    "results/main/runs.jsonl": {
+      "bytes": 316056,
+      "sha256": "c7292848f289dd86343b0a8f07a88c384dffba3fa85420f2244d201118f37e49"
+    },
+    "results/node_sweep/all_runs.jsonl": {
+      "bytes": 186199,
+      "sha256": "03d451f8731b42ec921a1214faa6171b07a4718eb574ab65a15e9582eb76681e"
+    },
+    "results/sample_sweep/all_runs.jsonl": {
+      "bytes": 133319,
+      "sha256": "45560a79263d16f25649e2af27479ed4ced3e19060041b2877423114d3b702c5"
+    },
+    "results/diagnostics/gradient_trace.csv": {
+      "bytes": 146917,
+      "sha256": "d2f33db2758097e9aa2e4cad11c56189e6360c3bffe430ca5e4dad8983960c43"
+    },
+    "results/incident_quartic16_seed2/incident.json": {
+      "bytes": 6711,
+      "sha256": "74904e5beb6a0fa4ab95b32d742ab3338a50446351da1cca10b28c4c513b3b9c"
+    }
+  }
+}
