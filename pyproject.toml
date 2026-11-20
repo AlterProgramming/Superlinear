@@ -1,0 +1,22 @@
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "multiplicative-superlinearity-lab"
+version = "0.1.0"
+description = "Falsifiable experiments on high-order interactions built from learned linear products"
+requires-python = ">=3.10"
+dependencies = ["numpy>=1.24", "scikit-learn>=1.2", "torch>=2.0"]
+
+[project.optional-dependencies]
+test = ["pytest>=7", "pandas>=2", "matplotlib>=3"]
+
+[project.scripts]
+multisuper-run = "multisuper.experiment:main"
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
