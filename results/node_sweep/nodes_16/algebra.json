@@ -1,0 +1,44 @@
+[
+  {
+    "depth": 1,
+    "theoretical_degree": 2,
+    "expected_scaling": 1.265625,
+    "observed_scaling": 1.265625,
+    "relative_error": 0.0
+  },
+  {
+    "depth": 2,
+    "theoretical_degree": 4,
+    "expected_scaling": 1.601806640625,
+    "observed_scaling": 1.6018066406250002,
+    "relative_error": 1.386213537224399e-16
+  },
+  {
+    "depth": 3,
+    "theoretical_degree": 8,
+    "expected_scaling": 2.565784513950348,
+    "observed_scaling": 2.565784513950349,
+    "relative_error": 3.461625147673305e-16
+  },
+  {
+    "depth": 4,
+    "theoretical_degree": 16,
+    "expected_scaling": 6.583250172027423,
+    "observed_scaling": 6.583250172027429,
+    "relative_error": 9.444041735370008e-16
+  },
+  {
+    "depth": 5,
+    "theoretical_degree": 32,
+    "expected_scaling": 43.339182827499094,
+    "observed_scaling": 43.339182827499044,
+    "relative_error": 1.147644885257223e-15
+  },
+  {
+    "depth": 6,
+    "theoretical_degree": 64,
+    "expected_scaling": 1878.2847681553924,
+    "observed_scaling": 1878.284768155391,
+    "relative_error": 7.263233327495777e-16
+  }
+]
