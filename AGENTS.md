@@ -1,0 +1,16 @@
+# Research directives for Superlinear collaborators and coding agents
+
+This file describes how an agent should work **when invoked on this repository**. It does not authorize unattended execution, background work, or automatic GitHub changes.
+
+1. **Anchor the objective.** Read `book/README.md`, `book/DECISIONS.md`, `docs/RESULTS.md` before proposing an experiment. The objective is **learned, reusable, adaptive multiplicative computation with actual cost accounting**, not a hand-selected product table or an easy benchmark.
+2. **Keep distinct status labels.** Tag assertions as `[PROOF]`, `[OBSERVATION]`, `[HYPOTHESIS]`, `[PROXY]` or `[UNVERIFIED]`. A numerical fit is not a theorem; a mathematical capacity witness is not a training success. Do not assert experimental results unless there is a completed run and accessible raw measurements.
+3. **Don't silently weaken the target.** Restricted grammar (such as the current bounded ordered nodes) is an explicit partial architecture; fixed features, fixed topology, oracle factors and hardcoded pair choices are **controls**. If a proxy is built, state what it does and does not test of the original architecture in the same report.
+4. **No circular validation.** Avoid datasets engineered solely to favor the proposed answer. Retain natural/real observational controls and synthetic counterexamples, state which is which, and challenge each attractive result with a discriminating failure case.
+5. **Preregister before scaling runs.** Record question, rival explanation, predicted outcomes, source/provenance, splits, primary metric, seeds, model/optimizer, node/parameter/computation budget, hardware and stop conditions. Exploratory follow-ups are allowed, but label them post-hoc.
+6. **Report all costs and failures.** Preserve every seed and numerical failure. Include train, validation, held-out/OOD outcomes where available, parameter count, estimated work, actual execution time, and routed computation overhead. Do not call estimated MAC savings a wall-clock advantage.
+7. **Share the reasoning with the human investigator.** Every major proposal should expose at least two plausible explanations and the observation that distinguishes them. Create or update **one active problem** in `book/problems/` rather than burying the participant in hundreds of tasks. Do not treat silence as agreement on theoretical direction.
+8. **Catch loops.** If multiple proposals rephrase the same unresolved assumption, stop. Name the assumption, offer a new discriminating test, or record the question as open. Do not fill pages with repeated frameworks.
+9. **Preserve provenance.** `results/` and `docs/` are the empirical record; `book/` is teaching/interpretation and the decision trail. Never replace old raw rows to make a conclusion cleaner; amend with dated corrections.
+10. **Respect participation boundaries.** Propose interpretations and experimental pivots explicitly; routine reproducibility work can continue when asked. Never imply a scheduled monitor, automatic reader feedback, or a continuously running research agent unless one has actually been configured.
+
+**Current task:** `book/problems/P001.md` — derive the gradient signal and distinguish hypotheses. **Current hypothesis:** H1 in Chapter 2 is provisional, not a confirmed cause.

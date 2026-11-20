@@ -1,5 +1,7 @@
 # Multiplicative Superlinearity Lab
 
+> **Start here: [Superlinear — the living research book](book/README.md).** The [current joint problem P001](book/problems/P001.md) studies why representable high-order products may be hard to learn. [Research decisions](book/DECISIONS.md) and [agent directives](AGENTS.md) keep future work aligned with the original question. This book is an interpretation of the recorded experiments, not a substitute for their raw evidence.
+
 **Question:** Does multiplying learned linear computations yield something more than algebraic high-order expressivity—specifically useful learned computation, adaptivity, and better performance at a justifiable cost?
 
 **Status:** An executable experimental research program, not a claim that the architectural thesis is proven.
